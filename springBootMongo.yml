@@ -93,7 +93,7 @@ spec:
          path: /tmp/dbbackup
 ---
 # Mongo Node Port RC
-apiVersion: v1
+apiVersion: apps/v1
 kind: Service
 metadata:
   name: mongo
